@@ -23,7 +23,7 @@
 */
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  color: #b23214;
+  color: darkturquoise;
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
