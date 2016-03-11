@@ -6,6 +6,7 @@
  * Made By MaterializeCSS.com
  */
 
+
 html {
   font-family: 'Lekton', sans-serif;
 }
@@ -19,6 +20,14 @@ p {
   line-height: 2rem;
 }
 
+
+/* sections */
+.resume {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* components */
 .button-collapse {
   color: #26a69a;
 }
@@ -32,6 +41,8 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+/* devices */
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -55,6 +66,8 @@ p {
 .icon-block .material-icons {
   font-size: inherit;
 }
+
+/* footer */
 
 footer.page-footer {
   margin: 0;
