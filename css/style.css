@@ -5,8 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-
-
 html {
   font-family: 'Lekton', sans-serif;
 }
@@ -20,12 +18,10 @@ p {
   line-height: 2rem;
 }
 
-
 /* sections */
-.resume {
-  background-color: rgba(0, 0, 0, 0.6);
+.resume, .vintage-me {
+  background-color: rgba(0, 0, 0, 0.3);
 }
-
 
 /* components */
 .button-collapse {
@@ -36,15 +32,19 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.portfolio div {
+  margin-top: 5%;
+}
 
 /* devices */
-
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -54,21 +54,27 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
+  }
+  .portfolio .modal-content img {
+    display: none;
+  }
+  .contact ul > li {
+    margin-bottom: 10%;
   }
 }
 
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
 
 /* footer */
-
 footer.page-footer {
   margin: 0;
 }

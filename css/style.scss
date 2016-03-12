@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+html {
+	font-family: 'Lekton', sans-serif;
+}
+
+nav ul a,
+nav {
+	color: #e65100;
+}
+
+p {
+	line-height: 2rem;
+}
+
+
+/* sections */
+.resume, .vintage-me {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* components */
+.button-collapse {
+	color: #26a69a;
+}
+
+.parallax-container {
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
+	.section {
+		width: 100%;
+	}
+}
+
+.portfolio {
+	div {
+		margin-top: 5%;
+	}
+}
+
+/* devices */
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+
+	.portfolio {
+		.modal-content {
+			img {
+				display: none;
+			}
+		}
+	}
+	.contact {
+		ul > li {
+			margin-bottom: 10%;
+		}
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* footer */
+
+footer.page-footer {
+	margin: 0;
+}
