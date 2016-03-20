@@ -6,11 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-
-html {
-	font-family: 'Lekton', sans-serif;
-}
-
 nav ul a,
 nav {
 	color: #e65100;
@@ -27,6 +22,11 @@ p {
 }
 
 /* components */
+.portfolio-btn {
+	font-size: .75em;
+	width: 85%;
+}
+
 .button-collapse {
 	color: #26a69a;
 }
