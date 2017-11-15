@@ -25,27 +25,46 @@
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 1rem;
 	grid-template-areas: 
-		"header header header"
-		"content-row-1 content-row-1 content-row-1"
-		"content-row-2 content-row-2 content-row-2"
-		"content-row-3 content-row-3 content-row-3"
+		"block-1 block-2 block-3"
+		"block-4 block-5 block-6"
+		"block-7 block-8 block-9"
 		"bottom bottom bottom";
 }
 
-.header {
-	grid-area: header;
+.block-1 {
+	grid-area: block-1;
 }
 
-.content-row-1 {
-	grid-area: content-row-1;
+.block-2 {
+	grid-area: block-2;
 }
 
-.content-row-2 {
-	grid-area: content-row-2;
+.block-3 {
+	grid-area: block-3;
 }
 
-.content-row-3 {
-	grid-area: content-row-3;
+.block-4 {
+	grid-area: block-4;
+}
+
+.block-5 {
+	grid-area: block-5;
+}
+
+.block-6 {
+	grid-area: block-6;
+}
+
+.block-7 {
+	grid-area: block-7;
+}
+
+.block-8 {
+	grid-area: block-8;
+}
+
+.block-9 {
+	grid-area: block-9;
 }
 
 .bottom {
