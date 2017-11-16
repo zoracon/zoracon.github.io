@@ -17,12 +17,52 @@
  $secondary-text-color: #757575;
  $divider-color:        #BDBDBD;
 
+body {
+	color: $primary-text-color;
+	font-family: Open Sans;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.8em;
+	margin: auto;
+	width: 1000px;
+
+	h1 {
+		font-size: 24px;
+	}
+
+	h2 {
+		color: $secondary-text-color;
+		font-size: 16px;
+	}
+
+	ul {
+		padding-left: 0;
+		li {
+			font-size: 12px;
+		}
+	}
+
+	p {
+		font-size: 12px;
+	}
+
+	section {
+		padding: 1%;
+	}
+	a {
+		color: $secondary-text-color;
+		&:focus, &:hover {
+			color: $primary-color-dark;
+		}
+	}
+}
+
 .container {
 	display: grid;
-	width: 100%;
 	height: auto;
-	grid-template-columns: 200px 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 300px 1fr 1fr;
+	grid-template-rows: 100px 1fr 1fr 1fr 100px;
 	grid-gap: 1rem;
 	grid-template-areas: 
 		"block-1 block-2 block-3"
@@ -31,11 +71,21 @@
 		"bottom bottom bottom";
 }
 
+.block-4, .block-5, .block-6 {
+	border-top: 1px solid $primary-color-dark;
+}
+
+.block-2, .block-5, .block-8 {
+	border-left: 1px solid $primary-color-dark;
+	border-right: 1px solid $primary-color-dark;
+}
+
 .block-1 {
 	grid-area: block-1;
 }
 
 .block-2 {
+	background-color:  $primary-color-dark;
 	grid-area: block-2;
 }
 
