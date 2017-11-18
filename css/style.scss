@@ -25,7 +25,7 @@ body {
 	font-size: 14px;
 	line-height: 1.8em;
 	margin: auto;
-	width: 1000px;
+	width: 1400px;
 
 	h1 {
 		font-size: 24px;
@@ -102,7 +102,19 @@ body {
 }
 
 .block-6 {
+	background-color:  $primary-color-dark;
+	color: $primary-color-text;
 	grid-area: block-6;
+
+	&:focus, &:hover {
+		background-color: $accent-color;
+		transition: all .5s ease-out;
+	}
+
+	p {
+		font-size: 3em;
+		text-align: center;
+	}
 }
 
 .block-7 {
@@ -115,6 +127,8 @@ body {
 
 .block-9 {
 	grid-area: block-9;
+
+	border-bottom: 1px solid $primary-color-dark;
 }
 
 .bottom {
