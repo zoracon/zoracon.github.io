@@ -18,22 +18,21 @@
  $divider-color:        #BDBDBD;
 
 body {
+	background-color: #000;
 	color: $primary-text-color;
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight: 300;
-	font-style: normal;
+	font-weight: lighter;
 	font-size: 14px;
-	line-height: 1.8em;
+	height: 100vh;
+	line-height: 1.5em;
 	margin: auto;
-	width: 1400px;
+	width: 100%;
 
 	h1 {
-		font-size: 24px;
-	}
-
-	h2 {
-		color: $secondary-text-color;
-		font-size: 16px;
+		font-size: 4em;
+		font-weight: lighter;
+		line-height: 60px;
 	}
 
 	ul {
@@ -51,33 +50,23 @@ body {
 		padding: 1%;
 	}
 	a {
-		color: $secondary-text-color;
+		color: $primary-color-text;
+		text-decoration: none;
 		&:focus, &:hover {
-			color: $primary-color-dark;
+			text-decoration: underline;
 		}
 	}
 }
 
 .container {
+	color: $primary-color-text;
 	display: grid;
-	height: auto;
-	grid-template-columns: 300px 1fr 1fr;
-	grid-template-rows: 100px 1fr 1fr 1fr 100px;
+	height: 100vh;
+	grid-template-columns: 50% 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 1rem;
 	grid-template-areas: 
-		"block-1 block-2 block-3"
-		"block-4 block-5 block-6"
-		"block-7 block-8 block-9"
-		"bottom bottom bottom";
-}
-
-.block-4, .block-5, .block-6 {
-	border-top: 1px solid $primary-color-dark;
-}
-
-.block-2, .block-5, .block-8 {
-	border-left: 1px solid $primary-color-dark;
-	border-right: 1px solid $primary-color-dark;
+		"block-1 block-2 block-3";
 }
 
 .block-1 {
@@ -85,7 +74,6 @@ body {
 }
 
 .block-2 {
-	background-color:  $primary-color-dark;
 	grid-area: block-2;
 }
 
@@ -93,44 +81,43 @@ body {
 	grid-area: block-3;
 }
 
-.block-4 {
-	grid-area: block-4;
-}
-
-.block-5 {
-	grid-area: block-5;
-}
-
-.block-6 {
-	background-color:  $primary-color-dark;
-	color: $primary-color-text;
-	grid-area: block-6;
-
-	&:focus, &:hover {
-		background-color: $accent-color;
-		transition: all .5s ease-out;
+.job{
+	margin-top: 10%;
+	.company {
+		font-style: italic;
 	}
-
-	p {
-		font-size: 3em;
-		text-align: center;
+	.title {
+		font-weight: bold;
 	}
 }
 
-.block-7 {
-	grid-area: block-7;
+.links {
+	display: block;
+	float: right;
 }
 
-.block-8 {
-	grid-area: block-8;
-}
+@media screen and (max-width: 960px) {
+	.container {
+		display: grid;
+		height: auto;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr;
+		grid-gap: 1rem;
+		grid-template-areas:
+			"block-1"
+			"block 2"
+			"block 3";
+	}
 
-.block-9 {
-	grid-area: block-9;
-
-	border-bottom: 1px solid $primary-color-dark;
-}
-
-.bottom {
-	grid-area: bottom;
+	.block-1 {
+		grid-area: block-1;
+	}
+	
+	.block-2 {
+		grid-area: block-2;
+	}
+	
+	.block-3 {
+		grid-area: block-3;
+	}
 }
