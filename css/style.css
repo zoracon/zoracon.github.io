@@ -52,6 +52,8 @@ body {
 
 .block-3 {
   grid-area: block-3; }
+  .block-3 svg {
+    color: #FFFFFF; }
 
 .job {
   margin-top: 10%; }
@@ -71,7 +73,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 1fr;
     grid-gap: 1rem;
-    grid-template-areas: "block-1" "block 2" "block 3"; }
+    grid-template-areas: "block-1"  "block-2"  "block-3"; }
 
   .block-1 {
     grid-area: block-1; }
@@ -80,6 +82,9 @@ body {
     grid-area: block-2; }
 
   .block-3 {
-    grid-area: block-3; } }
+    grid-area: block-3; }
+
+  .links {
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */
