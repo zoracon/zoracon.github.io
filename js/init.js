@@ -1,12 +1,11 @@
 (function($){
-  $(function(){
+  if (SVG.supported) {
+    var draw = SVG('drawing').size(300, 150);
+    var circle = draw.circle(100).animate(2000, '>', 1000).fill('#fff');
 
-    $( '.button-collapse' ).sideNav();
-    $( '.parallax' ).parallax();
-
-	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-	$( '.modal-trigger' ).leanModal();
-
-	$( ".alexis, .misfit" ).hide().fadeIn( 5000 );
-  }); // end of document ready
+    var drawich = SVG('drawing').size(300, 150);
+    var circleich = drawich.circle(100).animate(2000, '>', 1000).fill('#fff');
+  } else {
+    alert('SVG not supported');
+  }
 })(jQuery); // end of jQuery name space

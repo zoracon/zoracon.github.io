@@ -80,8 +80,18 @@ body {
 .block-3 {
 	grid-area: block-3;
 
-	svg {
-		color: #FFFFFF;
+	.portfolio-title {
+		color: black;
+		cursor: pointer;
+		position: absolute;
+	}
+
+	.portfolio-title-1 {
+		margin-left: 1%;
+		margin-top: 2%;
+	}
+	.portfolio-links {
+		color: $primary-text-color;
 	}
 }
 
@@ -98,6 +108,9 @@ body {
 .links {
 	display: block;
 	float: right;
+	a {
+		margin-left: 20px; 
+	}
 }
 
 @media screen and (max-width: 960px) {
@@ -127,5 +140,6 @@ body {
 
 	.links {
 		float: left;
+		margin-bottom: 5%;
 	}
 }

@@ -52,8 +52,15 @@ body {
 
 .block-3 {
   grid-area: block-3; }
-  .block-3 svg {
-    color: #FFFFFF; }
+  .block-3 .portfolio-title {
+    color: black;
+    cursor: pointer;
+    position: absolute; }
+  .block-3 .portfolio-title-1 {
+    margin-left: 1%;
+    margin-top: 2%; }
+  .block-3 .portfolio-links {
+    color: #212121; }
 
 .job {
   margin-top: 10%; }
@@ -65,6 +72,8 @@ body {
 .links {
   display: block;
   float: right; }
+  .links a {
+    margin-left: 20px; }
 
 @media screen and (max-width: 960px) {
   .container {
@@ -85,6 +94,7 @@ body {
     grid-area: block-3; }
 
   .links {
-    float: left; } }
+    float: left;
+    margin-bottom: 5%; } }
 
 /*# sourceMappingURL=style.css.map */
