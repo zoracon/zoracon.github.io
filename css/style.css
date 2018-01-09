@@ -129,5 +129,9 @@ body {
   .links {
     float: left;
     margin-bottom: 5%; } }
+@media screen and (min-width: 1140px) {
+  .key {
+    width: 44%;
+    text-align: justify; } }
 
 /*# sourceMappingURL=style.css.map */
