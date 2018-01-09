@@ -34,6 +34,9 @@ body {
 		font-weight: lighter;
 		line-height: 60px;
 	}
+	h2 {
+		font-weight: lighter;
+	}
 
 	ul {
 		padding-left: 0;
@@ -50,7 +53,7 @@ body {
 		padding: 1%;
 	}
 	a {
-		color: $primary-color-text;
+		color: $primary-color-light;
 		text-decoration: none;
 		&:focus, &:hover {
 			text-decoration: underline;
@@ -95,13 +98,29 @@ body {
 	}
 }
 
+.experience {
+	margin-top: 40px;
+	border-bottom: $primary-color-text 1px solid;
+}
 .job{
-	margin-top: 10%;
+	margin-top: 5%;
+	&:first-child {
+		margin-top: 0;
+	}
 	.company {
 		font-style: italic;
 	}
 	.title {
+		background-color: $primary-color-text;
+		color: $primary-text-color;
 		font-weight: bold;
+		padding: 5px;
+	}
+	.tech {
+		background-color: $primary-color-light;
+		color: $primary-text-color;
+		font-weight: bold;
+		padding: 5px;
 	}
 }
 
@@ -116,6 +135,21 @@ body {
 .intro {
 	font-size: 18px;
 	line-height: 1.8em;
+}
+
+.key {
+	cursor: pointer;
+	height: 200px;
+	overflow: hidden;
+	-moz-transition: height 0.5s ease-out;
+	-webkit-transition: height 0.5s ease-out;
+	transition: height 0.5s ease-out;
+	width: 80%;
+	&:hover, &:focus {
+		height: 100%;
+		overflow: hidden;
+		transition: height 0.5s ease-in;
+	}
 }
 
 @media screen and (max-width: 960px) {

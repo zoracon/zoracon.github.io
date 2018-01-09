@@ -21,6 +21,8 @@ body {
     font-size: 4em;
     font-weight: lighter;
     line-height: 60px; }
+  body h2 {
+    font-weight: lighter; }
   body ul {
     padding-left: 0; }
     body ul li {
@@ -30,7 +32,7 @@ body {
   body section {
     padding: 1%; }
   body a {
-    color: #FFFFFF;
+    color: #B2DFDB;
     text-decoration: none; }
     body a:focus, body a:hover {
       text-decoration: underline; }
@@ -62,12 +64,26 @@ body {
   .block-3 .portfolio-links {
     color: #212121; }
 
+.experience {
+  margin-top: 40px;
+  border-bottom: #FFFFFF 1px solid; }
+
 .job {
-  margin-top: 10%; }
+  margin-top: 5%; }
+  .job:first-child {
+    margin-top: 0; }
   .job .company {
     font-style: italic; }
   .job .title {
-    font-weight: bold; }
+    background-color: #FFFFFF;
+    color: #212121;
+    font-weight: bold;
+    padding: 5px; }
+  .job .tech {
+    background-color: #B2DFDB;
+    color: #212121;
+    font-weight: bold;
+    padding: 5px; }
 
 .links {
   display: block;
@@ -78,6 +94,19 @@ body {
 .intro {
   font-size: 18px;
   line-height: 1.8em; }
+
+.key {
+  cursor: pointer;
+  height: 200px;
+  overflow: hidden;
+  -moz-transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+  width: 80%; }
+  .key:hover, .key:focus {
+    height: 100%;
+    overflow: hidden;
+    transition: height 0.5s ease-in; }
 
 @media screen and (max-width: 960px) {
   .container {
