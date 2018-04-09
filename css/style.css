@@ -15,7 +15,7 @@ body {
   font-size: 14px;
   height: 100vh;
   line-height: 1.5em;
-  margin: auto;
+  margin: 2%;
   width: 100%; }
   body h1 {
     font-size: 4em;
@@ -41,7 +41,7 @@ body {
   color: #FFFFFF;
   display: grid;
   height: 100vh;
-  grid-template-columns: 50% 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 1rem;
   grid-template-areas: "block-1 block-2 block-3"; }
@@ -97,6 +97,7 @@ body {
 
 .key {
   cursor: pointer;
+  display: contents;
   height: 200px;
   overflow: hidden;
   -moz-transition: height 0.5s ease-out;
