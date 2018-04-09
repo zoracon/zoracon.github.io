@@ -24,7 +24,8 @@ body {
   body h2 {
     font-weight: lighter; }
   body ul {
-    padding-left: 0; }
+    padding-left: 0;
+    list-style: inside; }
     body ul li {
       font-size: 12px; }
   body p {
