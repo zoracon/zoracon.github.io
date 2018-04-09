@@ -24,10 +24,9 @@ body {
 	font-weight: 300;
 	font-weight: lighter;
 	font-size: 14px;
-	height: 100vh;
 	line-height: 1.5em;
 	margin: 2%;
-	width: 100%;
+	width: 95%;
 
 	h1 {
 		font-size: 4em;
@@ -40,6 +39,7 @@ body {
 
 	ul {
 		padding-left: 0;
+		list-style: inside;
 		li {
 			font-size: 12px;
 		}
@@ -63,17 +63,7 @@ body {
 
 .container {
 	color: $primary-color-text;
-	display: grid;
-	height: 100vh;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-gap: 1rem;
-	grid-template-areas: 
-		"block-1";
-}
-
-.block {
-	grid-area: block-1;
+	display: block;
 }
 
 .experience {
@@ -131,6 +121,11 @@ body {
 	}
 }
 
+.post {
+	text-align: justify;
+	width: 80%;
+}
+
 @media screen and (max-width: 960px) {
 	.container {
 		display: grid;
@@ -139,21 +134,11 @@ body {
 		grid-template-rows: 1fr;
 		grid-gap: 1rem;
 		grid-template-areas:
-		"block-1" 
-		"block-2" 
-		"block-3";
+		"block-1";
 	}
 
-	.block-1 {
+	.blockç {
 		grid-area: block-1;
-	}
-	
-	.block-2 {
-		grid-area: block-2;
-	}
-	
-	.block-3 {
-		grid-area: block-3;
 	}
 
 	.links {
