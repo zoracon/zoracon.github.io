@@ -29,5 +29,5 @@ I wanted to take these two comparisons and see what intermediate cheap unlocked 
 </p>
 
 <p>
-I generally would like to still <em>own</em> my phone and leasing it can lead to the provider doing fuck all with your physical device and data on said phone. Since technically you would not own it. It could terminate the possibility of fixing your own phone and voiding the lease deal by doing so. I hope that future isn't imminent. Until then, fuck phone leases and hopefully services like Republic Wireless and Google Fi get people thinking the possibility of phone co-ops in the U.S.
+I generally would like to still <em>own</em> my phone and leasing it can lead to the provider doing fuck all with your physical device and data on said phone. Since technically you would not own it. It could terminate the possibility of fixing your own phone and voiding the lease deal by doing so. I hope that future isn't imminent. Until then, fuck phone leases and hopefully services like Republic Wireless and Google Fi get people thinking about the possibility of phone co-ops in the U.S.
 </p>
