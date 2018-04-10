@@ -73,6 +73,9 @@ body {
   font-size: 18px;
   line-height: 1.8em; }
 
+.in-blog {
+  width: 50%; }
+
 .key {
   cursor: pointer;
   display: contents;
