@@ -10,7 +10,7 @@
 
  $primary-color-dark:   #00796B;
  $primary-color:        #009688;
- $primary-color-light:  #B2DFDB;
+ $primary-color-light:  #00b5b5;
  $primary-color-text:   #FFFFFF;
  $accent-color:         #607D8B;
  $primary-text-color:   #212121;
@@ -59,6 +59,12 @@ body {
 			text-decoration: underline;
 		}
 	}
+}
+
+nav ul li, 
+footer ul li  {
+	font-size: 1em;
+	margin-bottom: 10px;
 }
 
 .container {
@@ -141,7 +147,7 @@ body {
 		"block-1";
 	}
 
-	.blockç {
+	.block  {
 		grid-area: block-1;
 	}
 
