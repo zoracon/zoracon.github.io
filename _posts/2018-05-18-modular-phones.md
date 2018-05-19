@@ -4,7 +4,7 @@ title: "Phone's Block"
 date: 2018-04-16
 ---
 <p>
-I have been on the hunt and hoping for a modular phone since I came across Phone Blocks in 2015 as a concept.
+I have been on the hunt and hoping for a modular phone since I came across <a href="https://phonebloks.com/" target="_blank">Phone Bloks</a> in 2015 as a concept.
 
 I have witnessed the evolution of being able to simply swap out batteries to full complex processes of obtaining and replacing such a simple part of our phones. Becoming frustrated, I sought out different options. 
 </p>
