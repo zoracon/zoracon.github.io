@@ -22,7 +22,7 @@ What if you could simply replace processors if needed, a new camera, or modulate
 </p>
 
 <p>
-This is what modular phones can do. However, the phone manufacturers in the U.S. has been very quiet on this concept. When they were <a target="_blank" href="http://fortune.com/2016/09/03/why-google-canceled-project-ara/">finally loud about it, they shut it down as an unrealistic endeavor and never revisited it.</a>
+This is what modular phones can do. However, the phone manufacturers in the U.S. have been very quiet on this concept. When they were <a target="_blank" href="http://fortune.com/2016/09/03/why-google-canceled-project-ara/">finally loud about it, they shut it down as an unrealistic endeavor and never revisited it.</a>
 </p>
 
 <p>
