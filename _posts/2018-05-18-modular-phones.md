@@ -35,7 +35,7 @@ The current state of affairs in the U.S, simply trying to repair the current pop
 
 <p>On a scale from 1-10, how easy is it to replace your phone battery?</p>
 
-<p>If you are not sure, I encourage you to check out a tear-down of your phone if available on <a href="https://www.ifixit.com/Teardown" target="_blank">ifixit.org</a> and see for yourself. Even if you don't understand all the parts to your phone, you can at least know what is inside. Informing yourself ad hoc helps you understand what you look for in a phone. I for like ones that are well built and configurable, more than the sleekest design. To my dismay that is harder and harder to find.</p>
+<p>If you are not sure, I encourage you to check out a tear-down of your phone if available on <a href="https://www.ifixit.com/Teardown" target="_blank">ifixit.org</a> and see for yourself. Even if you don't understand all the parts to your phone, you can at least know what is inside. Informing yourself ad hoc helps you understand what you look for in a phone. I for one like phones that are well built and configurable, more than the sleekest design. To my dismay that is harder and harder to find.</p>
 
 <p>So far I either move to Europe for a Fairphone or get the LG G5, which had a slide out battery. The options are limited but I did find a cool project by these fine people at <a href="https://www.kickstarter.com/projects/2070436562/kite" target="_blank">iSquare Mobility</a>. It's not a sleek modular concept but rather a DIY phone with a 3D printed shell. I hope this project gets traction and I currently want to get my hands on a kit <strike>before Google black bags them</strike>.
 
