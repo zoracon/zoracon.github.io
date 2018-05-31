@@ -12,17 +12,17 @@ People are becoming more aware of their digital presence, or at least trying to.
 </p>
 
 <p>
-In the case of cookies, many still ask you turn your ad blocker off. Or even block the article if they found ad blocker markup on the page. Although many browsers are now <a target="_blank" href="https://www.theverge.com/2017/9/14/16308138/apple-safari-11-advertiser-groups-cookie-tracking-letter">purging cookies at shorter intervals</a>. This ask is still an interruption of experience to the user, having to white list URLs to allow advertising partners to place cookies (and opening up tracking pixels).
+In the case of cookies, many still ask you turn your ad blocker off. Or even block the article if they found ad blocker markup on the page. Although many browsers are now <a target="_blank" href="https://www.theverge.com/2017/9/14/16308138/apple-safari-11-advertiser-groups-cookie-tracking-letter">purging cookies at shorter intervals</a>. This ask is still an interruption of experience to the user, having to white list URLs to allow advertising partners to place cookies.
 </p>
 
 <p>
-Other tools out there that have made it's rounds are VPNs. In my own experience in using VPNs and anonymous proxies, Google search on mobile will often prompt me through a ReCAPTCHA or offload my search results before making them available to me. With Tor proxy, certain exit relay nodes have been flagged by servers and major websites. But the choosing to block these exit relays "because pirates" seems like a cop out in 2018. One may also site security reasons. 
+Other tools out there that have made it's rounds are VPNs. In my own experience in using VPNs and anonymous proxies, Google search on mobile will often prompt me through a ReCAPTCHA or offload my search results before making them available to me. With Tor proxy, certain exit relay nodes have been flagged by firewalls for major websites. Choosing to block these exit relays, citing piracy issues.
 </p>
 
 <p>
-Users being punished for trying to stay safe is a self preserving approach on the part of the digital ad industry. To the point some pages will just have content as a blank page without real explanation to the user.
+Users may feel punished for trying to stay safe in exchange for a self preserving approach on the part of the digital ad industry. To the point some pages will just have content as a blank page without real explanation to the user.
 </p>
 
 <p>
-But the main message is, "relax your security for our peace of mind". Which is a selfish and myopic approach going forward in the age of being exploited well before being knowledgeable about it.
+But the main message can be interpreted as, "relax your security for our peace of mind". Which is a myopic approach going forward in the age of being exploited well before being knowledgeable about it.
 </p>
