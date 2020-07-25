@@ -1,0 +1,6 @@
+# CSS
+ui: css/*
+
+# blog
+blog:
+  - blog/*
