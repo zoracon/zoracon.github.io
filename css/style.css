@@ -78,6 +78,10 @@ nav {
     color: #000;
     font-weight: bold;
     padding: 5px; }
+  .job .desc ul {
+    margin-left: 2%; }
+  .job .desc ul li {
+    list-style: disc; }
 
 .links {
   display: block;
@@ -115,6 +119,9 @@ nav {
 
 .talk-title {
   font-size: 1.5em; }
+
+.media-block {
+  margin: 3% 0; }
 
 @media screen and (max-width: 960px) {
   .container {
