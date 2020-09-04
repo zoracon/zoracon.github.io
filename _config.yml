@@ -1,3 +1,8 @@
 name: Alexis
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-feed
+title:  Assembly Not Included
+description: Tech Ramblings and Tinkering of a Coding Misfit
+author: Alexis
