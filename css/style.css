@@ -22,6 +22,9 @@ body {
     body ul li {
       font-size: 18px;
       margin: 1% 0; }
+  body .post ul {
+    padding-left: 16px;
+    list-style: initial; }
   body p {
     font-size: 14px;
     font-weight: 400; }

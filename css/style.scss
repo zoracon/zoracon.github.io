@@ -31,7 +31,13 @@ body {
       font-size: 18px;
       margin: 1% 0;
 		}
-	}
+  }
+  .post {
+    ul {
+      padding-left: 16px;
+      list-style: initial;
+    }
+  }
 
 	p {
     font-size: 14px;
