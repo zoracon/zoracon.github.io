@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Signing Code with Yubikey"
+title: "Journey with Crypto: Signing Code with Yubikey"
 date: 2020-10-17
 ---
 
