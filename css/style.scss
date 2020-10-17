@@ -8,7 +8,7 @@ body {
 	color: $primary-text-color;
 	font-family: Open Sans, sans-serif;
 	font-weight: 400;
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.5em;
 	margin: 15px;
@@ -16,12 +16,12 @@ body {
 
 	h1 {
 		font-size: 64px;
-		font-weight: lighter;
+		font-weight: normal;
 		line-height: 60px;
     margin-bottom: 10px;
 	}
 	h2 {
-    font-weight: lighter;
+    font-weight: normal;
 	}
 
 	ul {

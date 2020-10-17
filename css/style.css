@@ -4,18 +4,18 @@ body {
   color: #303c6c;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.5em;
   margin: 15px;
   width: 95%; }
   body h1 {
     font-size: 64px;
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 60px;
     margin-bottom: 10px; }
   body h2 {
-    font-weight: lighter; }
+    font-weight: normal; }
   body ul {
     padding-left: 0;
     list-style: none; }
