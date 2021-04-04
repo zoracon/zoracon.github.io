@@ -1,0 +1,162 @@
+/* Stylesheet */
+body {
+  background-color: #FBE8A6;
+  color: #303c6c;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: 15px;
+  width: auto;
+  word-wrap: anywhere; }
+  body h1 {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 60px;
+    margin-bottom: 10px; }
+  body h2 {
+    font-weight: normal; }
+  body ul {
+    padding-left: 0;
+    list-style: none; }
+    body ul li {
+      font-size: 18px;
+      margin: 1% 0; }
+  body .post ul {
+    padding-left: 16px;
+    list-style: initial; }
+  body p {
+    font-size: 14px;
+    font-weight: 400; }
+  body a {
+    color: #b64e1e;
+    text-decoration: none; }
+    body a:focus, body a:hover {
+      text-decoration: underline; }
+    body a:active {
+      color: #003eaa; }
+
+nav ul li,
+footer ul li {
+  font-size: 1.5em;
+  list-style: none;
+  margin-bottom: 16px; }
+
+nav {
+  padding: 1%; }
+  nav ul {
+    display: inline-flex; }
+    nav ul li {
+      font-size: 1.5em;
+      margin-right: 16px; }
+
+.container {
+  color: #303c6c;
+  display: block;
+  padding: 1%; }
+
+.experience {
+  margin-top: 40px;
+  border-bottom: #b64e1e 1px solid; }
+
+.job {
+  margin-top: 5%; }
+  .job:first-child {
+    margin-top: 0; }
+  .job .time {
+    font-weight: bold; }
+  .job .company {
+    font-style: italic; }
+  .job .title {
+    background-color: #303c6c;
+    color: #FBE8A6;
+    font-weight: bold;
+    padding: 5px; }
+  .job .tech {
+    background-color: #b64e1e;
+    color: #FBE8A6;
+    font-weight: bold;
+    padding: 5px; }
+  .job .desc ul {
+    margin-left: 2%; }
+  .job .desc ul li {
+    list-style: disc; }
+
+.links {
+  display: block;
+  float: right; }
+  .links a {
+    margin-left: 20px; }
+
+.intro {
+  font-size: 18px;
+  line-height: 1.8em; }
+
+.in-blog {
+  width: 50%; }
+
+.key {
+  cursor: pointer;
+  display: contents;
+  height: 200px;
+  overflow: hidden;
+  -moz-transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+  width: 80%; }
+  .key:hover, .key:focus {
+    height: 100%;
+    overflow: hidden;
+    transition: height 0.5s ease-in; }
+
+.posts li a {
+  font-size: 1em; }
+
+.post {
+  text-align: justify;
+  width: 80%; }
+
+.talk-title {
+  font-size: 1.5em; }
+
+.media-block {
+  margin: 3% 0; }
+
+@media screen and (max-width: 960px) {
+  .container, h1 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: "block-1"; }
+
+  .block {
+    grid-area: block-1; }
+
+  .links {
+    float: left;
+    margin-bottom: 5%; } }
+@media screen and (min-width: 1140px) {
+  .key {
+    width: 44%;
+    text-align: justify; } }
+@media screen and (max-width: 920px) {
+  nav ul {
+    display: block; } }
+@media print {
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff; }
+
+  header, footer, nav {
+    display: none; }
+
+  .job .title {
+    color: #303c6c; }
+  .job .tech {
+    color: #303c6c; } }
+
+/*# sourceMappingURL=style.css.map */

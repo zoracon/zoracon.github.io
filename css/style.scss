@@ -1,0 +1,221 @@
+/* Stylesheet */
+ $link-color:           #b64e1e;
+ $primary-text-color:   #303c6c;
+ $secondary-text-color: #ccc;
+
+body {
+	background-color: #FBE8A6;
+	color: $primary-text-color;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 15px;
+	width: auto;
+	word-wrap: anywhere;
+
+	h1 {
+		font-size: 64px;
+		font-weight: normal;
+		line-height: 60px;
+    margin-bottom: 10px;
+	}
+	h2 {
+    font-weight: normal;
+	}
+
+	ul {
+		padding-left: 0;
+    list-style: none;
+		li {
+      font-size: 18px;
+      margin: 1% 0;
+		}
+  }
+  .post {
+    ul {
+      padding-left: 16px;
+      list-style: initial;
+    }
+  }
+
+	p {
+    font-size: 14px;
+    font-weight: 400;
+	}
+
+	a {
+		color: $link-color;
+		text-decoration: none;
+		&:focus, &:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			color: #003eaa
+		}
+	}
+}
+
+nav ul li,
+footer ul li  {
+	font-size: 1.5em;
+	list-style: none;
+	margin-bottom: 16px;
+}
+
+nav {
+  padding: 1%;
+	ul {
+		display: inline-flex;
+		li {
+			font-size: 1.5em;
+			margin-right: 16px;
+		}
+	}
+}
+
+.container {
+	color: $primary-text-color;
+  display: block;
+  padding: 1%;
+}
+
+.experience {
+	margin-top: 40px;
+	border-bottom: $link-color 1px solid;
+}
+.job{
+  margin-top: 5%;
+	&:first-child {
+		margin-top: 0;
+  }
+  .time {
+    font-weight: bold;
+  }
+	.company {
+		font-style: italic;
+	}
+	.title {
+		background-color: $primary-text-color;
+		color: #FBE8A6;
+		font-weight: bold;
+		padding: 5px;
+	}
+	.tech {
+		background-color: $link-color;
+		color: #FBE8A6;
+		font-weight: bold;
+		padding: 5px;
+  }
+  .desc ul {
+    margin-left: 2%;
+  }
+  .desc ul li {
+    list-style: disc;
+  }
+}
+
+.links {
+	display: block;
+	float: right;
+	a {
+		margin-left: 20px;
+	}
+}
+
+.intro {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.in-blog {
+	width: 50%;
+}
+
+.key {
+	cursor: pointer;
+	display: contents;
+	height: 200px;
+	overflow: hidden;
+	-moz-transition: height 0.5s ease-out;
+	-webkit-transition: height 0.5s ease-out;
+	transition: height 0.5s ease-out;
+	width: 80%;
+	&:hover, &:focus {
+		height: 100%;
+		overflow: hidden;
+		transition: height 0.5s ease-in;
+	}
+}
+
+.posts li a{
+  font-size: 1em;
+}
+.post {
+	text-align: justify;
+	width: 80%;
+}
+
+.talk-title {
+  font-size: 1.5em;
+}
+
+.media-block {
+  margin: 3% 0;
+}
+
+@media screen and (max-width: 960px) {
+	.container, h1 {
+		display: grid;
+		height: auto;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr;
+		grid-gap: 1rem;
+		grid-template-areas:
+		"block-1";
+	}
+
+	.block  {
+		grid-area: block-1;
+	}
+
+	.links {
+		float: left;
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (min-width: 1140px) {
+	.key {
+		width: 44%;
+		text-align: justify;
+	}
+}
+@media screen and (max-width: 920px) {
+	nav ul {
+		display: block;
+	}
+}
+
+@media print {
+
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+  header, footer, nav {
+    display: none;
+  }
+
+  .job{
+    .title {
+      color: $primary-text-color;
+    }
+    .tech {
+      color: $primary-text-color;
+    }
+  }
+}
