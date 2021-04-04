@@ -12,7 +12,12 @@ body {
 	font-size: 14px;
 	line-height: 1.5em;
 	margin: 15px;
+<<<<<<< HEAD
 	width: 95%;
+=======
+	width: auto;
+	word-wrap: anywhere;
+>>>>>>> changes
 
 	h1 {
 		font-size: 64px;
@@ -165,7 +170,11 @@ nav {
 }
 
 @media screen and (max-width: 960px) {
+<<<<<<< HEAD
 	.container {
+=======
+	.container, h1 {
+>>>>>>> changes
 		display: grid;
 		height: auto;
 		grid-template-columns: 100%;
