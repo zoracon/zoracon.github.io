@@ -47,7 +47,7 @@ body {
 
 	a {
 		color: $link-color;
-		text-decoration: none;
+		text-decoration: underline;
 		&:focus, &:hover {
 			text-decoration: underline;
 		}
@@ -82,7 +82,7 @@ nav {
     grid-template-columns: repeat(3, 30%);
 }
 .iblock {
-	height: 30vh;
+	height: auto;
 	margin: 0;
 	padding: 1%;
 }
@@ -90,13 +90,14 @@ nav {
 	background-color: $link-color;
 	color: #FBE8A6;
 	grid-column: 1;
-	grid-row: 2 / 3;
+	grid-row: 1;
 }
 .b {
 	background-color: $primary-text-color;
 	color: #FBE8A6;
 	grid-column: 2;
-	grid-row: 3;
+	grid-row: 2 / 4;
+	height: auto;
 }
 .c {
 	background-color: $link-color;
@@ -119,7 +120,7 @@ nav {
 .g,.k {
 	background-color: #333;
 }
-.b,.e,.g,.i,.k {
+.b,.e,.g,.i,.k,.d {
 	font-size: 64px;
 	line-height: 1.5em;
 }
@@ -240,7 +241,7 @@ nav {
 	.home {
 		display: block;
 	}
-	.b,.e,.g,.i,.k {
+	.b,.e,.g,.i,.k,.d {
 		font-size: 32px;
 		line-height: 5em;
 	}
