@@ -51,6 +51,56 @@ nav {
       font-size: 1.5em;
       margin-right: 16px; }
 
+.home {
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: repeat(3, 30%); }
+
+.iblock {
+  height: 30vh;
+  margin: 0;
+  padding: 1%; }
+
+.a {
+  background-color: #b64e1e;
+  color: #FBE8A6;
+  grid-column: 1;
+  grid-row: 2 / 3; }
+
+.b {
+  background-color: #303c6c;
+  color: #FBE8A6;
+  grid-column: 2;
+  grid-row: 3; }
+
+.c {
+  background-color: #b64e1e;
+  color: #FBE8A6;
+  font-weight: bold;
+  grid-column: 3;
+  grid-row: 1 / 5;
+  height: 100%; }
+
+.d {
+  background-color: #303c6c;
+  grid-column: 1;
+  grid-row: 4; }
+
+.k {
+  grid-column: 1;
+  grid-row: 3; }
+
+.g, .k {
+  background-color: #333; }
+
+.b, .e, .g, .i, .k {
+  font-size: 64px;
+  line-height: 1.5em; }
+
+.i {
+  grid-column: 2;
+  grid-row: 4; }
+
 .container {
   color: #303c6c;
   display: block;
@@ -137,7 +187,17 @@ nav {
 
   .links {
     float: left;
-    margin-bottom: 5%; } }
+    margin-bottom: 5%; }
+
+  .home {
+    display: block; }
+
+  .b, .e, .g, .i, .k {
+    font-size: 32px;
+    line-height: 5em; }
+
+  .c {
+    height: auto; } }
 @media screen and (min-width: 1140px) {
   .key {
     width: 44%;

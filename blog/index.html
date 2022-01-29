@@ -2,10 +2,26 @@
 layout: default
 title: Assembly Not Included
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+<nav>
+	<ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/media">Press</a></li>
+	<li><a href="/cv">Resume</a></li>
+	<li><a href="/feed.xml">Blog RSS</a></li>
+	<li><a target="_blank" href="https://www.eff.org/about/staff/alexis-hancock">EFF Deeplinks</a></li>
+</ul>
+</nav>
+<h1>{{ page.title }}</h1>
+<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+	{% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
+<footer>
+	<ul>
+		<li><a href="mailto:zoonarc@duck.com">email</a></li>
+		<li><a href="https://github.com/zoracon">github.com/zoracon</a></li>
+  </ul>
+  </footer>
