@@ -21,6 +21,8 @@
   grid-column: 2;
   grid-row: 2 / 4;
   height: auto; }
+  .b a {
+    color: #FBE8A6; }
 
 .c {
   background-color: #b64e1e;
@@ -29,8 +31,6 @@
   grid-column: 3;
   grid-row: 1 / 5;
   height: 100%; }
-  .c a {
-    color: #FBE8A6; }
 
 .d {
   background-color: #303c6c;
@@ -51,6 +51,9 @@
 .i {
   grid-column: 2;
   grid-row: 4; }
+
+.b a, .k a, .g a, .d a {
+  color: #FBE8A6; }
 
 body {
   background-color: #fbe8a6;
