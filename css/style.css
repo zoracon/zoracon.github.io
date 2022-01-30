@@ -85,7 +85,7 @@
   grid-row: 4; }
 
 body {
-  background-color: #FBE8A6;
+  background-color: #fbe8a6;
   color: #303c6c;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
@@ -98,7 +98,7 @@ body {
   body h1 {
     font-size: 64px;
     font-weight: normal;
-    line-height: 60px;
+    line-height: normal;
     margin-bottom: 10px; }
   body h2 {
     font-weight: normal; }
@@ -155,12 +155,12 @@ nav {
     font-style: italic; }
   .job .title {
     background-color: #303c6c;
-    color: #FBE8A6;
+    color: #fbe8a6;
     font-weight: bold;
     padding: 5px; }
   .job .tech {
     background-color: #b64e1e;
-    color: #FBE8A6;
+    color: #fbe8a6;
     font-weight: bold;
     padding: 5px; }
   .job .desc ul {
@@ -217,7 +217,9 @@ nav {
     body ul li {
       font-size: 11px; }
 
-  header, footer, nav {
+  header,
+  footer,
+  nav {
     display: none; }
 
   .job {

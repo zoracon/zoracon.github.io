@@ -2,34 +2,34 @@
 @import "vars", "responsive", "home";
 
 body {
-	background-color: #FBE8A6;
-	color: $primary-text-color;
-	font-family: Open Sans, sans-serif;
-	font-weight: 400;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 1.5em;
-	margin: 15px;
-	width: auto;
-	word-wrap: anywhere;
+  background-color: #fbe8a6;
+  color: $primary-text-color;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: 15px;
+  width: auto;
+  word-wrap: anywhere;
 
-	h1 {
-		font-size: 64px;
-		font-weight: normal;
-		line-height: 60px;
-    margin-bottom: 10px;
-	}
-	h2 {
+  h1 {
+    font-size: 64px;
     font-weight: normal;
-	}
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-weight: normal;
+  }
 
-	ul {
-		padding-left: 0;
+  ul {
+    padding-left: 0;
     list-style: none;
-		li {
+    li {
       font-size: 18px;
       margin: 1% 0;
-		}
+    }
   }
   .post {
     ul {
@@ -38,73 +38,74 @@ body {
     }
   }
 
-	p {
+  p {
     font-size: 14px;
     font-weight: 400;
-	}
+  }
 
-	a {
-		color: $link-color;
-		text-decoration: underline;
-		&:focus, &:hover {
-			text-decoration: underline;
-		}
-		&:active {
-			color: #003eaa
-		}
-	}
+  a {
+    color: $link-color;
+    text-decoration: underline;
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+    &:active {
+      color: #003eaa;
+    }
+  }
 }
 
 nav ul li,
-footer ul li  {
-	font-size: 1.5em;
-	list-style: none;
-	margin-bottom: 16px;
+footer ul li {
+  font-size: 1.5em;
+  list-style: none;
+  margin-bottom: 16px;
 }
 
 nav {
   padding: 1%;
-	ul {
-		display: inline-flex;
-		li {
-			font-size: 1.5em;
-			margin-right: 16px;
-		}
-	}
+  ul {
+    display: inline-flex;
+    li {
+      font-size: 1.5em;
+      margin-right: 16px;
+    }
+  }
 }
 
 .container {
-	color: $primary-text-color;
-	display: block;
-	padding: 1%;
+  color: $primary-text-color;
+  display: block;
+  padding: 1%;
 }
 
 .experience {
-	margin-top: 40px;
-	border-bottom: $link-color 1px solid;
+  margin-top: 40px;
+  border-bottom: $link-color 1px solid;
 }
-.job{
+.job {
   margin-top: 5%;
-	&:first-child {
-		margin-top: 0;
+  &:first-child {
+    margin-top: 0;
   }
   .time {
     font-weight: bold;
   }
-	.company {
-		font-style: italic;
-	}
-	.title {
-		background-color: $primary-text-color;
-		color: #FBE8A6;
-		font-weight: bold;
-		padding: 5px;
-	}
-	.tech {
-		background-color: $link-color;
-		color: #FBE8A6;
-		font-weight: bold;
-		padding: 5px;
+  .company {
+    font-style: italic;
+  }
+  .title {
+    background-color: $primary-text-color;
+    color: #fbe8a6;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .tech {
+    background-color: $link-color;
+    color: #fbe8a6;
+    font-weight: bold;
+    padding: 5px;
   }
   .desc ul {
     margin-left: 2%;
@@ -115,44 +116,45 @@ nav {
 }
 
 .links {
-	display: block;
-	float: right;
-	a {
-		margin-left: 20px;
-	}
+  display: block;
+  float: right;
+  a {
+    margin-left: 20px;
+  }
 }
 
 .intro {
-	font-size: 18px;
-	line-height: 1.8em;
+  font-size: 18px;
+  line-height: 1.8em;
 }
 
 .in-blog {
-	width: 50%;
+  width: 50%;
 }
 
 .key {
-	cursor: pointer;
-	display: contents;
-	height: 200px;
-	overflow: hidden;
-	-moz-transition: height 0.5s ease-out;
-	-webkit-transition: height 0.5s ease-out;
-	transition: height 0.5s ease-out;
-	width: 80%;
-	&:hover, &:focus {
-		height: 100%;
-		overflow: hidden;
-		transition: height 0.5s ease-in;
-	}
+  cursor: pointer;
+  display: contents;
+  height: 200px;
+  overflow: hidden;
+  -moz-transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+  width: 80%;
+  &:hover,
+  &:focus {
+    height: 100%;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+  }
 }
 
-.posts li a{
+.posts li a {
   font-size: 1em;
 }
 .post {
-	text-align: justify;
-	width: 80%;
+  text-align: justify;
+  width: 80%;
 }
 
 .talk-title {
@@ -164,29 +166,30 @@ nav {
 }
 
 @media print {
-    body {
-      color: #000;
-      background-color: #fff;
-      margin: 0;
-      text-align: left;
-      ul li {
-          font-size: 11px;
-      }
-    }
-  
-    header, footer, nav {
-      display: none;
-    }
-  
-    .job{
-		margin-top: 1%;
-      .title {
-        color: #303c6c;
-        padding: 0;
-      }
-      .tech {
-        color: #303c6c;
-      }
+  body {
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    text-align: left;
+    ul li {
+      font-size: 11px;
     }
   }
-  
+
+  header,
+  footer,
+  nav {
+    display: none;
+  }
+
+  .job {
+    margin-top: 1%;
+    .title {
+      color: #303c6c;
+      padding: 0;
+    }
+    .tech {
+      color: #303c6c;
+    }
+  }
+}
