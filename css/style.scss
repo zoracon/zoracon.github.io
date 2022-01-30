@@ -1,5 +1,5 @@
 /* Stylesheet */
-@import "vars", "responsive", "home";
+@import 'vars', 'home';
 
 body {
   background-color: #fbe8a6;
@@ -193,3 +193,5 @@ nav {
     }
   }
 }
+
+@import 'responsive';

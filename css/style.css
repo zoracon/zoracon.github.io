@@ -1,36 +1,4 @@
 /* Stylesheet */
-@media screen and (max-width: 960px) {
-  .container, h1 {
-    display: grid;
-    height: auto;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr;
-    grid-gap: 1rem;
-    grid-template-areas: "block-1"; }
-
-  .block {
-    grid-area: block-1; }
-
-  .links {
-    float: left;
-    margin-bottom: 5%; }
-
-  .home {
-    display: block; }
-
-  .b, .e, .g, .i, .k, .d {
-    font-size: 32px;
-    line-height: 5em; }
-
-  .c {
-    height: auto; } }
-@media screen and (min-width: 1140px) {
-  .key {
-    width: 44%;
-    text-align: justify; } }
-@media screen and (max-width: 920px) {
-  nav ul {
-    display: block; } }
 .home {
   display: grid;
   grid-gap: 12px;
@@ -229,5 +197,37 @@ nav {
       padding: 0; }
     .job .tech {
       color: #303c6c; } }
+@media screen and (max-width: 960px) {
+  .container, h1 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: "block-1"; }
+
+  .block {
+    grid-area: block-1; }
+
+  .links {
+    float: left;
+    margin-bottom: 5%; }
+
+  .home {
+    display: block; }
+
+  .b, .e, .g, .i, .k, .d {
+    font-size: 32px;
+    line-height: 5em; }
+
+  .c {
+    height: auto; } }
+@media screen and (min-width: 1140px) {
+  .key {
+    width: 44%;
+    text-align: justify; } }
+@media screen and (max-width: 920px) {
+  nav ul {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
