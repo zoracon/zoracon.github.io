@@ -6,7 +6,7 @@ date: 2022-07-06
 
 Lately been diving a little deeper into my side journey with Android app reversing.
 
-I went over Maddie Stone's amazing course [here](https://www.ragingrock.com/AndroidAppRE/app_fundamentals.html). I have not mastered much but decided to take on one exercise at a time. The [last exercise](https://www.ragingrock.com/AndroidAppRE/obfuscation.html#exercise-7---string-deobfuscation) in the course goes over string deobfuscation. There are Java methods that are passed in app to take a mysterious obfuscated string and reverse it back to being human readable for a Webview method to load it.
+I went over Maddie Stone's amazing Android Reversing course [here](https://www.ragingrock.com/AndroidAppRE/app_fundamentals.html). I decided to take on one exercise at a time. The [last exercise](https://www.ragingrock.com/AndroidAppRE/obfuscation.html#exercise-7---string-deobfuscation) in the course goes over string deobfuscation. There are Java methods that are passed in app to take a mysterious obfuscated string and reverse it back to being human readable for a Webview method to load it.
 
 ```
 webView.loadData(z1.b(new String(z1.a("773032205849207A38313
@@ -20,11 +20,11 @@ E317F214558262E636A6A6E1E4A37282233256C"), Charset.forName("UTF-8"))), "text/htm
 
 In the exercise, it was cracked by reimplementing the methods in Python and mirroring the code to deobfuscate the string. However, I came across an [interesting tutorial](https://1337.dcodx.com/mobile-security/owasp-mstg-crackme-1-writeup-android) using [Frida](https://frida.re/). A "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers." Being a Frida novice I wanted to take the time to learn more beyond using given scripts. Even though the community scripts are very very useful! With Frida, you can utilize and load the classes and methods to sort of "replay" what the app is doing with the data passed to it. So, combining this knowledge with the exercise from Maddie's course, I tried my hand at dynamically cracking the string using the methods as given in the example app.
 
-I. Install the app. I grabbed it out of the VM given in the exercise from Android RE course and installed on an emulated Android.
+I. Install the app on an Android device. I grabbed the `.apk` out of the VM given in the exercise from Android RE course and installed on an emulated Android.
 
 `adb install apks\ClashOfLights.apk`
 
-Side note: Of course I already have Android Studio for a few reasons. Not only does it have Android Emulator tool, but it has a JADX-GUI plugin you can install to decompile APKs.
+Side note: I already have Android Studio installed and like it for a few reasons. Not only does it have Android Emulator tool, but you can add a JADX-GUI plugin to decompile APKs.
 
 II. Write the Javascript hook Frida will use.
 
@@ -109,6 +109,8 @@ III. Orchestrate the Frida server on the emulated Android and then hook this JS 
 
 `adb shell "chmod 755 /data/local/tmp/frida-server"`
 
+`adb shell "/data/local/tmp/frida-server &"`
+
 `frida -U -l ./deob.js -f com.clashof.lights`s
 
 Running this I got:
@@ -147,4 +149,4 @@ Frida Output
 [*] End
 ```
 
-There you go, the deobfuscated string dynamically grabbed through Frida!
+There you go, the deobfuscated string dynamically grabbed through Frida! I suspect this type of obfuscation method isn't necessarily that common. But I plan to use this use case for other types of dynamic analysis in the future!
