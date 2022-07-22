@@ -103,7 +103,7 @@ Not pretty, but does the job!
 III. Orchestrate the Frida server on the emulated Android and then hook this JS into the app to run.
 
 
-`adb push ./frida-server-15.1.20-android-x86 /data/local/tmp/frida-server` <--- based on architecture of the device. Frida docs are great with guiding with this but I also love [this tutorial](https://httptoolkit.tech/blog/frida-certificate-pinning/#install-and-start-frida-on-the-device) as well.
+`adb push ./frida-server-15.1.20-android-x86 /data/local/tmp/frida-server` <--- based on architecture of the device. Frida docs are great with guiding with this but I also like [this tutorial](https://httptoolkit.tech/blog/frida-certificate-pinning/#install-and-start-frida-on-the-device) as well.
 
 `adb root`
 
@@ -111,7 +111,7 @@ III. Orchestrate the Frida server on the emulated Android and then hook this JS 
 
 `adb shell "/data/local/tmp/frida-server &"`
 
-`frida -U -l ./deob.js -f com.clashof.lights`s
+`frida -U -l ./deob.js -f com.clashof.lights`
 
 Running this I got:
 
