@@ -8,6 +8,8 @@ Yesterday, at Google I/O, a lot of announcements came out about generative A.I. 
 
 Anyway, Bard is still in it's early days and I guess the evolution of this is integrating Bard into the developer workflow. I imagine there will be a ChatGPT or Bard plugin for your IDE coming soon (if one isn't around already).
 
+NOTE: I understand that last paragraph is filled with security and privacy implications. I will leave that to my day job though. Let me just enjoy things and pretend for a moment that things are fine. This is also not an endorsement of Bard.
+
 So far I been plugging in code I wrote in languages I am less familiar with but _know enough_ to create programs. I use a go program I wrote up that dumps host info into a JSON output some weeks back. It's very bare and not well structured honestly. However, I wanted to see how I could improve it, using Bard.
 
 1. I asked the broad question of how I could improve it.
