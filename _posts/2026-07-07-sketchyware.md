@@ -52,4 +52,4 @@ Researchers can, but the average user generally cannot. My hope is that there wi
 
 My main motive is not to define and classify my own realm of malware or even expand on it. I want to end the sketchyware aspects of Android so that I don't have to write about them 20 years from now.
 
-See you online.
+Shout out to "Bunnie" for helping me through some of my thoughts.
